@@ -231,7 +231,7 @@ RectTransform:
   m_Children:
   - {fileID: 1550619019}
   m_Father: {fileID: 1330213475}
-  m_RootOrder: 6
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -398,8 +398,9 @@ GameObject:
   - component: {fileID: 349008660}
   - component: {fileID: 349008662}
   - component: {fileID: 349008661}
+  - component: {fileID: 349008663}
   m_Layer: 5
-  m_Name: Text
+  m_Name: TxtNews
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,6 +464,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 349008659}
   m_CullTransparentMesh: 0
+--- !u!114 &349008663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 349008659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecf3171b3166464c9435249583f52f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &368023637
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,7 +721,7 @@ RectTransform:
   m_Children:
   - {fileID: 368023638}
   m_Father: {fileID: 1330213475}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -755,7 +767,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1032050298}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1330213476}
+        m_MethodName: Leaderboard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1032050298
@@ -803,6 +826,7 @@ GameObject:
   - component: {fileID: 1330213474}
   - component: {fileID: 1330213473}
   - component: {fileID: 1330213472}
+  - component: {fileID: 1330213476}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -879,11 +903,11 @@ RectTransform:
   m_Children:
   - {fileID: 230989832}
   - {fileID: 1526350223}
+  - {fileID: 307528356}
   - {fileID: 1920483077}
   - {fileID: 1032050296}
   - {fileID: 1469791242}
   - {fileID: 2085403021}
-  - {fileID: 307528356}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -892,6 +916,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1330213476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1330213471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b186244ee5c4b74aaaf61e1a584f06d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1469791241
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,7 +957,7 @@ RectTransform:
   m_Children:
   - {fileID: 475147102}
   m_Father: {fileID: 1330213475}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1241,7 +1276,7 @@ RectTransform:
   m_Children:
   - {fileID: 321030145}
   m_Father: {fileID: 1330213475}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1287,7 +1322,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1920483079}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1330213476}
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1920483079
@@ -1430,7 +1476,7 @@ RectTransform:
   m_Children:
   - {fileID: 349008660}
   m_Father: {fileID: 1330213475}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

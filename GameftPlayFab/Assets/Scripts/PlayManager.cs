@@ -10,7 +10,8 @@ public class PlayManager : MonoBehaviour {
 	GameObject panel;
 	[SerializeField]
 	int LoadingTimeOut = 3;
-	public string play_ID;
+	public string play_ID, play_DisplayName, play_Car;
+	public int play_Score, play_Coins;
 	// Use this for initialization
 	void Awake()
 	{

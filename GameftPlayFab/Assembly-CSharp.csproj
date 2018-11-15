@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game\GoldCoin\CoinRotation.cs" />
      <Compile Include="Assets\PlayFabSdk\Admin\PlayFabAdminAPI.cs" />
      <Compile Include="Assets\PlayFabSdk\Admin\PlayFabAdminModels.cs" />
      <Compile Include="Assets\PlayFabSdk\Admin\PlayFabEvents.cs" />
@@ -180,21 +181,26 @@
      <Compile Include="Assets\PlayFabSdk\Shared\SignalR.NET20\Transports\ServerSentEventsTransport.cs" />
      <Compile Include="Assets\PlayFabSdk\Shared\SignalR.NET20\Transports\SseEvent.cs" />
      <Compile Include="Assets\Scripts\AuthScript.cs" />
+     <Compile Include="Assets\Scripts\CarController.cs" />
+     <Compile Include="Assets\Scripts\LeaderboardScript.cs" />
+     <Compile Include="Assets\Scripts\MenuScript.cs" />
+     <Compile Include="Assets\Scripts\NewsScripts.cs" />
      <Compile Include="Assets\Scripts\PlayManager.cs" />
      <Compile Include="Assets\Scripts\RememberScripts.cs" />
      <Compile Include="Assets\Scripts\RememberToggle.cs" />
+     <Compile Include="Assets\Scripts\UIGameScripts.cs" />
      <None Include="Assets\PlayFabSdk\link.xml" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/1998t/Documents/GameftPlayFab/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/Unity/PlayFab/GameftPlayFab/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/1998t/Documents/GameftPlayFab/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/Unity/PlayFab/GameftPlayFab/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/1998t/Documents/GameftPlayFab/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/Unity/PlayFab/GameftPlayFab/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/1998t/Documents/GameftPlayFab/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/Unity/PlayFab/GameftPlayFab/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
